@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <h1>Exercicio Elemento formulario</h1>
+
+  <!-- formularios  -->
+  <fieldset>
+    <legend>Preencher aqui:</legend>
+    <form action="mailto:invencaosarasilva@gmail.com" method="post">
+
+
+      <label for="cnome">Nome:</label>
+      <input type="text" id="cnome">
+      <br>
+      <label for="Snome">Sobrenome:</label>
+      <input type="text" id="Snome">
+      <BR>
+
+      <br>
+      <label for="mail">e-mail:</label>
+      <input type="mail" name="E-mail" id="mail" placeholder=" teste01@gmail.com">
+      <br>
+      <label for="Ssenha"> Senha:</label>
+      <input type="password" name="Ssenha" id="Ssenha">
+      <br>
+  </fieldset>
+  <fieldset>
+    <legend>Escolha o curso aqui:</legend>
+    <h2> Qual curso está matriculado</h2>
+    <!-- selecionar apenas um -->
+
+    <input type="radio" name="curso" id="op1">
+    <label for="op1"> Gestão ERP</label> <br>
+
+    <input type="radio" name="curso" id="op2">
+    <label for="op2"> Desenvolvimento web</label> <br>
+
+    <input type="radio" name="curso" id="op3">
+    <label for="op3"> Suporte em TI</label> <br>
+
+    <input type="radio" name="curso" id="op4">
+    <label for="op4"> Microsoft Officce</label> <br> </br>
+
+  </fieldset>
+  <fieldset>
+    <legend>Qual o meio que você mais utiliza:</legend>
+    <h2>Meio de transportes</h2>
+    <!-- selecionar varios -->
+    <input type="checkbox" name="onibus" id="ônibus">
+    <label for="transporte1">ônibus</label>
+    <br>
+    <input type="checkbox" name="onibus" id="ônibus">
+    <label for="transporte1">Mêtro</label>
+    <bR>
+    <input type="checkbox" name="onibus" id="ônibus">
+    <label for="transporte1">A pé</label>
+    <br>
+    <input type="checkbox" name="onibus" id="ônibus">
+    <label for="transporte1">Carro</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Autodeclaração</legend>
+    <h2> Cor que você se autodeclara</h2>
+
+    <!-- selecionar apenas um -->
+    <input type="radio" name="cor" id="p1">
+    <label for="p1">Branco</label>
+    <br>
+    <input type="radio" name="cor" id="p2">
+    <label for="p2">Negro</label>
+    <br>
+    <input type="radio" name="cor" id="p3">
+    <label for="p3">Amarelo</label>
+    <br>
+    <input type="radio" name="cor" id="p4">
+    <label for="p4">Indigena</label>
+    <br>
+    <input type="radio" name="cor" id="p5">
+    <label for="p5">Pardo</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Curso de sua preferencia:</legend>
+    <h2>Curso que deseja fazer</h2>
+
+    <!-- selecionar varios -->
+    
+    <input type="checkbox" name="cursos" id="ios">
+    <label for="ios">Gestão Empresarial com Software ERP TOTVS</label>
+    <BR>
+    <input type="checkbox" name="cursos" id="ios">
+    <label for="ios">Desenvolvimento web</label>
+    <BR>
+    <input type="checkbox" name="cursos" id="ios">
+    <label for="ios">Gestão Empresarial Zendesk</label>
+    <BR>
+    <input type="checkbox" name="cursos" id="ios">
+    <label for="ios">Suporte em TI</label>
+
+    <br>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Marcas conhecidas:</legend>
+    <h2> Marcas de telefone</h2>
+    <!-- selecionar por caixa -->
+
+    <label for="TELEFONE">TELEFONES</label>
+    <select name="TELEFONE" id="TELEFONE">
+
+      <option value="desabilitado" selected disabled>Marcas</option>
+
+      <option value="Samsung">Samsung</option>
+      <option value="Motorola">Motorola</option>
+      <option value="Iphone">Iphone</option>
+
+    </select>
+
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+
+    <legend>Cidade onde mora atualmente:</legend>
+    <h2>Escolha sua cidade</h2>
+
+    <!-- caixa sem a seta -->
+
+    <label for="ccid">Escolha sua cidade</label>
+    <input type="ccid" list="cidade">
+    <datalist id="cidade">
+
+      <option value="saoPaulo">São Paulo</option>
+      <option value="itaberaba">Itaberaba</option>
+      <option value="pinheros">Pinheros</option>
+
+    </datalist>
+
+  </fieldset>
+
+  <br>
+
+  <fieldset>
+    <label for="textarea">deixe seu comentario aqui:</label> <br>
+    <textarea id="textarea" cols="50" rows="1" placeholder="digite aqui..." maxlength="50"></textarea>
+
+    <input type="submit" value="enviar" id="enviar">
+    </form>
+    <br>
+
+
+
+  </fieldset>
+
+
+</body>
+
+</html>
